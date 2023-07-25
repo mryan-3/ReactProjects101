@@ -1,0 +1,28 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.header-image {
+  width: auto;
+  transition: max-width 0.4s, min-width 0.4s;
+}
+
+.head-image-expanded{
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.head-image-contracted{
+  max-width: 60px;
+  min-width: 40px;
+}
+
+.header-text {
+  font-family: "Machi Maru Pop", cursive;
+  margin: 5px 0 15px 0;
+  position: relative;
+  left: 27px;
+}
+

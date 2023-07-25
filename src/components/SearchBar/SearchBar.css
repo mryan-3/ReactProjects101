@@ -1,0 +1,25 @@
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  position: relative;
+  left: 27px;
+}
+.search-bar {
+  padding: 8px 15px;
+  font-size: 15px;
+  width: 250px;
+  border-width: 0%;
+  background: #a592f2;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.search-bar::placeholder {
+  color: #fff;
+}
+.search-bar:focus {
+  outline: none;
+}
